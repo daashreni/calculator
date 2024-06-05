@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Ipad\ wallpaper-leaves.jpeg);
+    background-attachment: fixed;
+    background-size:cover ;
+    height: 100vh;
+}
+#bg{
+    margin: 0px auto;
+    width: 1000px;
+    padding: 10px;
+}
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+    float: left;
+    margin-left: 250px;
+}
+#display{
+    width: 92%;
+    padding: 20px;
+    font-size: 4rem;
+    color: #0c2d1c;
+    text-align: right;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #0c2d1c
+}
+#keys{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 15px;
+    padding: 25px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border:none;
+    background-color: #b7deca;
+    color: #0c2d1c;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(149, 34%, 48%);
+}
+button:active{
+    background-color: hsl(149, 34%, 58%);  
+}
+.opt{
+    background-color: #155132;
+    color: #ffffff;
+}
+.opt:hover{
+    background-color: #002914;
+}
+.opt:active{
+    background-color: hsl(149, 100%, 18%);
+}
