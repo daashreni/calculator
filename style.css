@@ -20,6 +20,7 @@ body{
     overflow: hidden;
     float: left;
     margin-left: 250px;
+    box-shadow: 1px 1px 50px #000000
 }
 #display{
     width: 92%;
